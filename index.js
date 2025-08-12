@@ -1,4 +1,4 @@
-const words = ["Developer", "Learner", "Reader", "Watcher", "Listener", "Dreamer", "Writer", "Wanderer"];
+const words = [" Developer", " Learner", " Reader", " Watcher", " Listener", " Dreamer", " Writer", " Wanderer"];
 const value = document.querySelector(".rand-word");
 
 function wait(ms) {
@@ -11,12 +11,11 @@ async function changeWord() {
   for (let i = 0; i < words[randomIndex].length; i++) {
     displayText += words[randomIndex][i]
     value.textContent = displayText
-    await wait(500)
+    await wait(600)
   }
 
 }
-
-setInterval(changeWord, 5000)
+setInterval(changeWord, 6000)
 
 
 document.querySelectorAll('[data-tooltip]').forEach(el => {
@@ -30,7 +29,7 @@ document.querySelectorAll('[data-tooltip]').forEach(el => {
     tooltip.style.left = `${rect.left + rect.width / 2}px`;
     tooltip.style.top = `${rect.top - 30}px`;
 
-    el._tooltip = tooltip; // store reference
+    el._tooltip = tooltip;
   });
 
   el.addEventListener('mouseleave', e => {

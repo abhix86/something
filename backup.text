@@ -1,0 +1,29 @@
+{
+    "121485515545485" : {
+        "birthDay" : "",
+        "joinDate" : "",
+        "quotes" : {
+            "quote_id" : {
+            "id_of_first_quote" : "",
+            "id_of_second_quote" : "",
+            "id_of_third_quote": ""
+            },
+            "deleted_quote" : {
+                "first_id" : "",
+                "second_id" : ""
+            }
+        },
+        "warn" : {
+            "first" : {
+                "date_and_time" : "",
+                "reason" : "",
+                "Warned_by" : ""
+            },
+            "second" : {
+                "date_and_time" : "",
+                "reason" : "",
+                "Warned_by" : ""
+            } 
+        }
+    }
+}
