@@ -1,13 +1,13 @@
 {
   "redirects": [
     {
-      "source": "/docs",
-      "destination": "/vim.html",
+      "source": "/docs/",
+      "destination": "vim.html",
       "permanent": false
     },
     {
-      "source": "/docs/vim",
-      "destination": "/nvim.html",
+      "source": "/docs/vim/",
+      "destination": "nvim.html",
       "permanent": false
     }
   ],
