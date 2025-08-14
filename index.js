@@ -11,7 +11,7 @@ async function changeWord() {
   for (let i = 0; i < words[randomIndex].length; i++) {
     displayText += words[randomIndex][i]
     value.textContent = displayText
-    await wait(600)
+    await wait(500)
   }
 
 }
