@@ -193,3 +193,11 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   opacity: 0.8;
 }
+
+.left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  color: aliceblue;
+}
