@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/new_redirect",
-      "destination": "/index.html",
+      "destination": "/nvim.html",
       "permanent": false
     }
   ],
