@@ -1,7 +1,7 @@
 {
   "redirects": [
     {
-      "source": "/new_redirect",
+      "source": "/docs",
       "destination": "/nvim.html",
       "permanent": false
     }
