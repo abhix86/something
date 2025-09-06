@@ -37,6 +37,7 @@ body {
   height: 100%;
   width: 25%;
   background-color: var(--nav-bg-color);
+  user-select: none;
 }
 
 .left {
@@ -193,3 +194,31 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   opacity: 0.8;
 }
+.top{
+  display: none;
+}
+
+.acc_bttn{
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: var(--nav-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+  /* box-shadow: 0 0 20px #88888888; */
+  user-select: none;
+}
+
+.acc_bttn img{
+  height: 40px;
+  width: 40px;
+}
+/* .acc_bttn svg{
+  fill: white;
+} */
