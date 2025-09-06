@@ -59,5 +59,6 @@
   }
   .acc_bttn {
     right: 10%;
+    user-select: none;
   }
 }
