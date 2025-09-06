@@ -213,7 +213,7 @@ body {
   opacity: 0.6;
   /* box-shadow: 0 0 20px #88888888; */
   user-select: none;
-  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .acc_bttn img {
